@@ -1,0 +1,29 @@
+# Ignore all subfolders and their contents, except those explicitly needed
+# for version control (if any source code lives in a subfolder).
+# For this project, assuming all source code is in the root.
+*/
+
+# Explicitly include specific subfolders that might contain source if needed.
+# !my_source_subfolder/
+
+# Ignore log files in the base directory
+*.log
+*.txt
+
+# Ignore Python-specific files and directories
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+env/
+.env
+
+# Operating system specific files
+.DS_Store
+Thumbs.db
+
+# Docker specific files (excluding Dockerfile)
+*.dockerignore
+*.bak
+

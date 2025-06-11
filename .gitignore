@@ -9,6 +9,8 @@
 # Ignore log files in the base directory
 *.log
 *.txt
+# But don't ignore requirements.txt :))
+!requirements.txt
 
 # Ignore Python-specific files and directories
 __pycache__/
